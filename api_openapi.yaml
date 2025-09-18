@@ -1,0 +1,35 @@
+openapi: 3.0.3
+info:
+  title: Go-Monas API (mock)
+  version: "1.0.0"
+
+servers:
+  - url: http://127.0.0.1:8000
+
+paths:
+  /products.json:
+    get:
+      summary: Lista de productos
+      description: Retorna la lista simulada de productos de Go-Monas.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      example: 1
+                    title:
+                      type: string
+                      example: "Paquete Clásico"
+                    price:
+                      type: number
+                      example: 79
+                    img:
+                      type: string
+                      example: "go-monas logo.png"

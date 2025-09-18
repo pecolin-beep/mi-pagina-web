@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Paquete Clásico",  "price": 79, "img": "go-monas paquetes.png"},
+  {"id": 2, "title": "Edición Creativa", "price": 89, "img": "ojo-gomita.png"},
+  {"id": 3, "title": "Pack Logo",        "price": 59, "img": "go-monas logo.png"}
+]
